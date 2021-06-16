@@ -16,3 +16,24 @@ empty_dictionary = {}
 # programming_dictionary = {}
 
 #looping through dictionary
+
+###########################################
+## nesting dictionaries within dictionaries
+travel_log = {
+    "Canada": {"cities_visited": ["Vancouver", "Toronto", "Vancouver Island"], "Total Visits": 10},
+    "Australia": {"cities_visited": ["Sydney", "Melbourne", "Perth"], "Total Visits": 1}
+}
+
+# nesting dictionaries within list
+travel_log = [
+    {
+        "country": "Canada", 
+        "cities_visited": ["Vancouver", "Toronto", "Vancouver Island"], 
+        "Total Visits": 10 
+    },
+    {
+        "country": "Australia", 
+        "cities_visited": ["Sydney", "Melbourne", "Perth"], 
+        "Total Visits": 1
+    },
+]
